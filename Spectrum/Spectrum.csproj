@@ -35,7 +35,6 @@
     <Compile Include="ViewModels\CreateUserViewModel.cs" />
     <Compile Include="ViewModels\NavigationParameters.cs" />
     <Compile Include="Services\PasswordValidationService.cs" />
-    <Compile Include="Services\PasswordValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
