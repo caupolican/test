@@ -90,6 +90,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:text="Add User"
+            android:tint="@android:color/white"
             android:background="?android:attr/colorControlActivated"
             android:textColor="@android:color/white"
             android:layout_gravity="bottom"

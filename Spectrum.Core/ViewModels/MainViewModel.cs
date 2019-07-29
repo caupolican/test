@@ -59,9 +59,11 @@ namespace Spectrum.ViewModels
             var user = await _navigationService
                 .Navigate<CreateUserViewModel, NavigationParameters, UserViewModel>(new NavigationParameters());
 
-            await _repository.AddUserAsync(user);
-
-            Users.Add(user);
+            if (user != null)
+            {
+                await _repository.AddUserAsync(user);
+                Users.Add(user);
+            }
 
             IsEmpty = !Users.Any();
         }
