@@ -57,6 +57,7 @@ namespace Spectrum.ViewModels
                     {
                         FirstName = FirstName ?? string.Empty,
                         LastName = LastName ?? string.Empty,
+                        Name = $"{LastName}, {FirstName}",
                         Email = Email ?? string.Empty,
                         Password = Password
                     });

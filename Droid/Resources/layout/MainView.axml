@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
+<android.support.design.widget.CoordinatorLayout 
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
@@ -11,13 +11,19 @@
         android:scrollbars="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        local:MvxItemTemplate="@layout/item_user"
-        local:MvxBind="ItemsSource Users"/>
+        app:MvxItemTemplate="@layout/item_user"
+        app:MvxBind="ItemsSource Users"/>
     
-    <Button
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_button"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Add"
-        android:textSize="40dp"
-        local:MvxBind="Click CreateUserCommand" />
-</LinearLayout>
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:src="@android:drawable/ic_input_add"
+        app:MvxBind="Click CreateUserCommand"/>
+    
+</android.support.design.widget.CoordinatorLayout >

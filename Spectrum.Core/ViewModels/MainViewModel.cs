@@ -4,6 +4,7 @@ using MvvmCross.Commands;
 using MvvmCross.Navigation;
 using MvvmCross.ViewModels;
 using Spectrum.Services;
+using System.Linq;
 
 namespace Spectrum.ViewModels
 {
