@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.Design.Widget;
 using MvvmCross.Droid.Views;
 
 namespace Spectrum.Droid.Views
