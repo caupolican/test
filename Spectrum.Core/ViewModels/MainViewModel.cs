@@ -1,18 +1,24 @@
-using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using MvvmCross.Core.Navigation;
-using MvvmCross.Core.ViewModels;
+using MvvmCross.Commands;
+using MvvmCross.Navigation;
+using MvvmCross.ViewModels;
+using Spectrum.Services;
 
 namespace Spectrum.ViewModels
 {
     public class MainViewModel : MvxViewModel
     {
         private readonly IMvxNavigationService _navigationService;
+        private readonly IRepository _repository;
 
-        public MainViewModel(IMvxNavigationService navigationService)
+        public MainViewModel(
+            IMvxNavigationService navigationService,
+            IRepository repository)
         {
             _navigationService = navigationService;
+            _repository = repository;
+
             CreateUserCommand = new MvxAsyncCommand(NavigateAsync);
         }
         
@@ -26,7 +32,13 @@ namespace Spectrum.ViewModels
         public override void Prepare()
         {
             Title = "Spectrum Users";
-            Users = new ObservableCollection<UserViewModel>();
+
+            var users = _repository
+                .GetAllAsync()
+                .GetAwaiter()
+                .GetResult();
+
+            Users = new ObservableCollection<UserViewModel>(users);
 
             base.Prepare();
         }
@@ -41,6 +53,8 @@ namespace Spectrum.ViewModels
         {
             var user = await _navigationService
                 .Navigate<CreateUserViewModel, NavigationParameters, UserViewModel>(new NavigationParameters());
+
+            await _repository.AddUserAsync(user);
 
             Users.Add(user);
         }

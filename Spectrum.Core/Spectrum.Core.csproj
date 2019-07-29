@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="akavache.sqlite3" Version="6.5.20" />
+    <PackageReference Include="MvvmCross" Version="6.3.1" />
+    <PackageReference Include="PropertyChanged.Fody" Version="3.0.1" />
+    <PackageReference Include="akavache" Version="6.5.20" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+</Project>

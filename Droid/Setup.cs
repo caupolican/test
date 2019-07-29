@@ -1,24 +1,23 @@
 using Android.Content;
-using MvvmCross.Droid.Platform;
-using MvvmCross.Core.ViewModels;
-using MvvmCross.Platform.Platform;
+using MvvmCross.Platforms.Android.Core;
+using MvvmCross.ViewModels;
 
 namespace Spectrum.Droid
 {
     public class Setup : MvxAndroidSetup
     {
-        public Setup(Context applicationContext) : base(applicationContext)
+        public Setup(Context applicationContext)
         {
         }
 
         protected override IMvxApplication CreateApp()
         {
-            return new Spectrum.App();
+            return new Spectrum.Core.App();
         }
 
-        protected override IMvxTrace CreateDebugTrace()
+        protected override void InitializeIoC()
         {
-            return new DebugTrace();
+            base.InitializeIoC();
         }
     }
 }

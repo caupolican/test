@@ -1,8 +1,6 @@
-using System;
-using System.Threading.Tasks;
 using Android.App;
 using Android.Content.PM;
-using MvvmCross.Droid.Views;
+using MvvmCross.Platforms.Android.Views;
 
 namespace Spectrum.Droid
 {

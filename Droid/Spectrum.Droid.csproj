@@ -41,27 +41,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="MvvmCross.Platform">
-      <HintPath>..\packages\MvvmCross.Platform.5.7.0\lib\MonoAndroid\MvvmCross.Platform.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Platform.Droid">
-      <HintPath>..\packages\MvvmCross.Platform.5.7.0\lib\MonoAndroid\MvvmCross.Platform.Droid.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Core">
-      <HintPath>..\packages\MvvmCross.Core.5.7.0\lib\MonoAndroid\MvvmCross.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Droid">
-      <HintPath>..\packages\MvvmCross.Core.5.7.0\lib\MonoAndroid\MvvmCross.Droid.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Binding">
-      <HintPath>..\packages\MvvmCross.Binding.5.7.0\lib\MonoAndroid\MvvmCross.Binding.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Binding.Droid">
-      <HintPath>..\packages\MvvmCross.Binding.5.7.0\lib\MonoAndroid\MvvmCross.Binding.Droid.dll</HintPath>
-    </Reference>
-    <Reference Include="MvvmCross.Localization">
-      <HintPath>..\packages\MvvmCross.Binding.5.7.0\lib\MonoAndroid\MvvmCross.Localization.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Android.Export" />
     <Reference Include="Xamarin.Android.Support.Annotations">
       <HintPath>..\packages\Xamarin.Android.Support.Annotations.28.0.0.1\lib\monoandroid90\Xamarin.Android.Support.Annotations.dll</HintPath>
@@ -175,12 +154,46 @@
     <Reference Include="Xamarin.Android.Support.Design">
       <HintPath>..\packages\Xamarin.Android.Support.Design.28.0.0.1\lib\monoandroid90\Xamarin.Android.Support.Design.dll</HintPath>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Spectrum\Spectrum.csproj">
-      <Project>{94B65B9C-7572-43AC-9FA6-CB0073AF914B}</Project>
-      <Name>Spectrum</Name>
-    </ProjectReference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Bson">
+      <HintPath>..\packages\Newtonsoft.Json.Bson.1.0.2\lib\netstandard2.0\Newtonsoft.Json.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="Splat">
+      <HintPath>..\packages\Splat.8.1.1\lib\monoandroid81\Splat.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="SQLitePCLRaw.core">
+      <HintPath>..\packages\SQLitePCLRaw.core.1.1.14\lib\MonoAndroid\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.lib.e_sqlite3">
+      <HintPath>..\packages\SQLitePCLRaw.lib.e_sqlite3.android.1.1.14\lib\MonoAndroid\SQLitePCLRaw.lib.e_sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.provider.e_sqlite3">
+      <HintPath>..\packages\SQLitePCLRaw.provider.e_sqlite3.android.1.1.14\lib\MonoAndroid\SQLitePCLRaw.provider.e_sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_e_sqlite3">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_e_sqlite3.1.1.14\lib\MonoAndroid\SQLitePCLRaw.batteries_e_sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_v2">
+      <HintPath>..\packages\SQLitePCLRaw.bundle_e_sqlite3.1.1.14\lib\MonoAndroid\SQLitePCLRaw.batteries_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>..\packages\System.Reactive.4.1.5\lib\netstandard2.0\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="Akavache.Core">
+      <HintPath>..\packages\akavache.core.6.5.20\lib\monoandroid80\Akavache.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Akavache.Sqlite3">
+      <HintPath>..\packages\akavache.sqlite3.6.5.20\lib\netstandard2.0\Akavache.Sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="Akavache">
+      <HintPath>..\packages\akavache.6.5.20\lib\monoandroid80\Akavache.dll</HintPath>
+    </Reference>
+    <Reference Include="MvvmCross">
+      <HintPath>..\packages\MvvmCross.6.3.1\lib\monoandroid90\MvvmCross.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
@@ -188,8 +201,6 @@
     <Compile Include="Views\MainView.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Setup.cs" />
-    <Compile Include="LinkerPleaseInclude.cs" />
-    <Compile Include="DebugTrace.cs" />
     <Compile Include="Views\CreateUsersView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -213,6 +224,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\loading.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Spectrum.Core\Spectrum.Core.csproj">
+      <Project>{9A486013-C9BE-43B2-883F-485896416631}</Project>
+      <Name>Spectrum.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Annotations.28.0.0.1\build\monoandroid90\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Annotations.28.0.0.1\build\monoandroid90\Xamarin.Android.Support.Annotations.targets')" />

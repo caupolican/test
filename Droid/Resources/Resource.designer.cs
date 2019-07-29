@@ -26,27 +26,24 @@ namespace Spectrum.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::Spectrum.Droid.Resource.Attribute.MvxBind;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::Spectrum.Droid.Resource.Attribute.MvxDropDownItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::Spectrum.Droid.Resource.Attribute.MvxGroupItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxItemTemplate = global::Spectrum.Droid.Resource.Attribute.MvxItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxLang = global::Spectrum.Droid.Resource.Attribute.MvxLang;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxSource = global::Spectrum.Droid.Resource.Attribute.MvxSource;
-			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxTemplate = global::Spectrum.Droid.Resource.Attribute.MvxTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Id.MvvmCrossTagId = global::Spectrum.Droid.Resource.Id.MvvmCrossTagId;
-			global::MvvmCross.Binding.Droid.Resource.Id.MvxBindingTagUnique = global::Spectrum.Droid.Resource.Id.MvxBindingTagUnique;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding = global::Spectrum.Droid.Resource.Styleable.MvxBinding;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxBind = global::Spectrum.Droid.Resource.Styleable.MvxBinding_MvxBind;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxBinding_MvxLang = global::Spectrum.Droid.Resource.Styleable.MvxBinding_MvxLang;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl = global::Spectrum.Droid.Resource.Styleable.MvxControl;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxControl_MvxTemplate = global::Spectrum.Droid.Resource.Styleable.MvxControl_MvxTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView = global::Spectrum.Droid.Resource.Styleable.MvxExpandableListView;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView = global::Spectrum.Droid.Resource.Styleable.MvxImageView;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxImageView_MvxSource = global::Spectrum.Droid.Resource.Styleable.MvxImageView_MvxSource;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView = global::Spectrum.Droid.Resource.Styleable.MvxListView;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
-			global::MvvmCross.Binding.Droid.Resource.Styleable.MvxListView_MvxItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxBind = global::Spectrum.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Resource.Attribute.MvxDropDownItemTemplate = global::Spectrum.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxGroupItemTemplate = global::Spectrum.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxItemTemplate = global::Spectrum.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Resource.Attribute.MvxLang = global::Spectrum.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Resource.Attribute.MvxTemplate = global::Spectrum.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Resource.Id.MvvmCrossTagId = global::Spectrum.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Resource.Id.MvxBindingTagUnique = global::Spectrum.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Resource.Styleable.MvxBinding = global::Spectrum.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Resource.Styleable.MvxBinding_MvxBind = global::Spectrum.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Resource.Styleable.MvxBinding_MvxLang = global::Spectrum.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Resource.Styleable.MvxControl = global::Spectrum.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Resource.Styleable.MvxControl_MvxTemplate = global::Spectrum.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Resource.Styleable.MvxExpandableListView = global::Spectrum.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Resource.Styleable.MvxListView = global::Spectrum.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Resource.Styleable.MvxListView_MvxItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
 		}
 		
 		public partial class Animation
@@ -170,9 +167,6 @@ namespace Spectrum.Droid
 			
 			// aapt resource value: 0x7f010217
 			public const int MvxLang = 2130772503;
-			
-			// aapt resource value: 0x7f01021c
-			public const int MvxSource = 2130772508;
 			
 			// aapt resource value: 0x7f010218
 			public const int MvxTemplate = 2130772504;
@@ -1227,47 +1221,47 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f010108
 			public const int logoDescription = 2130772232;
 			
-			// aapt resource value: 0x7f010220
-			public const int lottie_autoPlay = 2130772512;
-			
-			// aapt resource value: 0x7f010227
-			public const int lottie_colorFilter = 2130772519;
+			// aapt resource value: 0x7f01021f
+			public const int lottie_autoPlay = 2130772511;
 			
 			// aapt resource value: 0x7f010226
-			public const int lottie_enableMergePathsForKitKatAndAbove = 2130772518;
-			
-			// aapt resource value: 0x7f01021d
-			public const int lottie_fileName = 2130772509;
-			
-			// aapt resource value: 0x7f010224
-			public const int lottie_imageAssetsFolder = 2130772516;
-			
-			// aapt resource value: 0x7f010221
-			public const int lottie_loop = 2130772513;
+			public const int lottie_colorFilter = 2130772518;
 			
 			// aapt resource value: 0x7f010225
-			public const int lottie_progress = 2130772517;
+			public const int lottie_enableMergePathsForKitKatAndAbove = 2130772517;
 			
-			// aapt resource value: 0x7f01021e
-			public const int lottie_rawRes = 2130772510;
-			
-			// aapt resource value: 0x7f01022a
-			public const int lottie_renderMode = 2130772522;
+			// aapt resource value: 0x7f01021c
+			public const int lottie_fileName = 2130772508;
 			
 			// aapt resource value: 0x7f010223
-			public const int lottie_repeatCount = 2130772515;
+			public const int lottie_imageAssetsFolder = 2130772515;
 			
-			// aapt resource value: 0x7f010222
-			public const int lottie_repeatMode = 2130772514;
+			// aapt resource value: 0x7f010220
+			public const int lottie_loop = 2130772512;
 			
-			// aapt resource value: 0x7f010228
-			public const int lottie_scale = 2130772520;
+			// aapt resource value: 0x7f010224
+			public const int lottie_progress = 2130772516;
+			
+			// aapt resource value: 0x7f01021d
+			public const int lottie_rawRes = 2130772509;
 			
 			// aapt resource value: 0x7f010229
-			public const int lottie_speed = 2130772521;
+			public const int lottie_renderMode = 2130772521;
 			
-			// aapt resource value: 0x7f01021f
-			public const int lottie_url = 2130772511;
+			// aapt resource value: 0x7f010222
+			public const int lottie_repeatCount = 2130772514;
+			
+			// aapt resource value: 0x7f010221
+			public const int lottie_repeatMode = 2130772513;
+			
+			// aapt resource value: 0x7f010227
+			public const int lottie_scale = 2130772519;
+			
+			// aapt resource value: 0x7f010228
+			public const int lottie_speed = 2130772520;
+			
+			// aapt resource value: 0x7f01021e
+			public const int lottie_url = 2130772510;
 			
 			// aapt resource value: 0x7f01011a
 			public const int materialButtonStyle = 2130772250;
@@ -8149,6 +8143,7 @@ namespace Spectrum.Droid
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
 			public static int[] LottieAnimationView = new int[] {
+					2130772508,
 					2130772509,
 					2130772510,
 					2130772511,
@@ -8161,8 +8156,7 @@ namespace Spectrum.Droid
 					2130772518,
 					2130772519,
 					2130772520,
-					2130772521,
-					2130772522};
+					2130772521};
 			
 			// aapt resource value: 3
 			public const int LottieAnimationView_lottie_autoPlay = 3;
@@ -8591,12 +8585,6 @@ namespace Spectrum.Droid
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
-			
-			public static int[] MvxImageView = new int[] {
-					2130772508};
-			
-			// aapt resource value: 0
-			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[] {
 					2130772505,
