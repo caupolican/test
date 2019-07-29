@@ -57,7 +57,29 @@ namespace Spectrum.Services
 
     public class Repository : IRepository
     {
-        public readonly IList<UserViewModel> _store = new List<UserViewModel>();
+        public readonly IList<UserViewModel> _store = new List<UserViewModel> {
+            new UserViewModel {
+                FirstName = "John",
+                LastName = "Doe",
+                Name = "Doe, Jhon",
+                Email = "pepe@gmail.com"
+
+            },
+                        new UserViewModel {
+                FirstName = "John",
+                LastName = "Doe",
+                Name = "Doe, Jhon",
+                Email = "pepe@gmail.com"
+
+            },
+                                    new UserViewModel {
+                FirstName = "John",
+                LastName = "Doe",
+                Name = "Doe, Jhon",
+                Email = "pepe@gmail.com"
+
+            },
+        };
 
         public Task AddUserAsync(UserViewModel user)
         {
