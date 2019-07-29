@@ -44,6 +44,223 @@ namespace Spectrum.Droid
 			global::MvvmCross.Resource.Styleable.MvxListView = global::Spectrum.Droid.Resource.Styleable.MvxListView;
 			global::MvvmCross.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
 			global::MvvmCross.Resource.Styleable.MvxListView_MvxItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxBind = global::Spectrum.Droid.Resource.Attribute.MvxBind;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxDropDownItemTemplate = global::Spectrum.Droid.Resource.Attribute.MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxGroupItemTemplate = global::Spectrum.Droid.Resource.Attribute.MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxItemTemplate = global::Spectrum.Droid.Resource.Attribute.MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxLang = global::Spectrum.Droid.Resource.Attribute.MvxLang;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplate = global::Spectrum.Droid.Resource.Attribute.MvxTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.MvxTemplateSelector = global::Spectrum.Droid.Resource.Attribute.MvxTemplateSelector;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.alpha = global::Spectrum.Droid.Resource.Attribute.alpha;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.coordinatorLayoutStyle = global::Spectrum.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollEnabled = global::Spectrum.Droid.Resource.Attribute.fastScrollEnabled;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::Spectrum.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::Spectrum.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollVerticalThumbDrawable = global::Spectrum.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fastScrollVerticalTrackDrawable = global::Spectrum.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.font = global::Spectrum.Droid.Resource.Attribute.font;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderAuthority = global::Spectrum.Droid.Resource.Attribute.fontProviderAuthority;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderCerts = global::Spectrum.Droid.Resource.Attribute.fontProviderCerts;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderFetchStrategy = global::Spectrum.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderFetchTimeout = global::Spectrum.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderPackage = global::Spectrum.Droid.Resource.Attribute.fontProviderPackage;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontProviderQuery = global::Spectrum.Droid.Resource.Attribute.fontProviderQuery;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontStyle = global::Spectrum.Droid.Resource.Attribute.fontStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontVariationSettings = global::Spectrum.Droid.Resource.Attribute.fontVariationSettings;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.fontWeight = global::Spectrum.Droid.Resource.Attribute.fontWeight;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.keylines = global::Spectrum.Droid.Resource.Attribute.keylines;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layoutManager = global::Spectrum.Droid.Resource.Attribute.layoutManager;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_anchor = global::Spectrum.Droid.Resource.Attribute.layout_anchor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_anchorGravity = global::Spectrum.Droid.Resource.Attribute.layout_anchorGravity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_behavior = global::Spectrum.Droid.Resource.Attribute.layout_behavior;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_dodgeInsetEdges = global::Spectrum.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_insetEdge = global::Spectrum.Droid.Resource.Attribute.layout_insetEdge;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.layout_keyline = global::Spectrum.Droid.Resource.Attribute.layout_keyline;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.reverseLayout = global::Spectrum.Droid.Resource.Attribute.reverseLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.spanCount = global::Spectrum.Droid.Resource.Attribute.spanCount;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.stackFromEnd = global::Spectrum.Droid.Resource.Attribute.stackFromEnd;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.statusBarBackground = global::Spectrum.Droid.Resource.Attribute.statusBarBackground;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Attribute.ttcIndex = global::Spectrum.Droid.Resource.Attribute.ttcIndex;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.notification_action_color_filter = global::Spectrum.Droid.Resource.Color.notification_action_color_filter;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.notification_icon_bg_color = global::Spectrum.Droid.Resource.Color.notification_icon_bg_color;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.ripple_material_light = global::Spectrum.Droid.Resource.Color.ripple_material_light;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Color.secondary_text_default_material_light = global::Spectrum.Droid.Resource.Color.secondary_text_default_material_light;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_inset_horizontal_material = global::Spectrum.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_inset_vertical_material = global::Spectrum.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_padding_horizontal_material = global::Spectrum.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_button_padding_vertical_material = global::Spectrum.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_control_corner_material = global::Spectrum.Droid.Resource.Dimension.compat_control_corner_material;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_notification_large_icon_max_height = global::Spectrum.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.compat_notification_large_icon_max_width = global::Spectrum.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_default_thickness = global::Spectrum.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_margin = global::Spectrum.Droid.Resource.Dimension.fastscroll_margin;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.fastscroll_minimum_range = global::Spectrum.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Spectrum.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Spectrum.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Spectrum.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_action_icon_size = global::Spectrum.Droid.Resource.Dimension.notification_action_icon_size;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_action_text_size = global::Spectrum.Droid.Resource.Dimension.notification_action_text_size;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_big_circle_margin = global::Spectrum.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_content_margin_start = global::Spectrum.Droid.Resource.Dimension.notification_content_margin_start;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_large_icon_height = global::Spectrum.Droid.Resource.Dimension.notification_large_icon_height;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_large_icon_width = global::Spectrum.Droid.Resource.Dimension.notification_large_icon_width;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_main_column_padding_top = global::Spectrum.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_media_narrow_margin = global::Spectrum.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_right_icon_size = global::Spectrum.Droid.Resource.Dimension.notification_right_icon_size;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_right_side_padding_top = global::Spectrum.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_small_icon_background_padding = global::Spectrum.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_small_icon_size_as_large = global::Spectrum.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_subtext_size = global::Spectrum.Droid.Resource.Dimension.notification_subtext_size;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_top_pad = global::Spectrum.Droid.Resource.Dimension.notification_top_pad;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Dimension.notification_top_pad_large_text = global::Spectrum.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_action_background = global::Spectrum.Droid.Resource.Drawable.notification_action_background;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg = global::Spectrum.Droid.Resource.Drawable.notification_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_low = global::Spectrum.Droid.Resource.Drawable.notification_bg_low;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_low_normal = global::Spectrum.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_low_pressed = global::Spectrum.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_normal = global::Spectrum.Droid.Resource.Drawable.notification_bg_normal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_bg_normal_pressed = global::Spectrum.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_icon_background = global::Spectrum.Droid.Resource.Drawable.notification_icon_background;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_template_icon_bg = global::Spectrum.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_template_icon_low_bg = global::Spectrum.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notification_tile_bg = global::Spectrum.Droid.Resource.Drawable.notification_tile_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Drawable.notify_panel_notification_icon_bg = global::Spectrum.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.MvvmCrossTagId = global::Spectrum.Droid.Resource.Id.MvvmCrossTagId;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.MvxBindingTagUnique = global::Spectrum.Droid.Resource.Id.MvxBindingTagUnique;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_container = global::Spectrum.Droid.Resource.Id.action_container;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_divider = global::Spectrum.Droid.Resource.Id.action_divider;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_image = global::Spectrum.Droid.Resource.Id.action_image;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.action_text = global::Spectrum.Droid.Resource.Id.action_text;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.actions = global::Spectrum.Droid.Resource.Id.actions;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.all = global::Spectrum.Droid.Resource.Id.all;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.async = global::Spectrum.Droid.Resource.Id.async;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.blocking = global::Spectrum.Droid.Resource.Id.blocking;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.bottom = global::Spectrum.Droid.Resource.Id.bottom;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.center = global::Spectrum.Droid.Resource.Id.center;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.center_horizontal = global::Spectrum.Droid.Resource.Id.center_horizontal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.center_vertical = global::Spectrum.Droid.Resource.Id.center_vertical;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.chronometer = global::Spectrum.Droid.Resource.Id.chronometer;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.clip_horizontal = global::Spectrum.Droid.Resource.Id.clip_horizontal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.clip_vertical = global::Spectrum.Droid.Resource.Id.clip_vertical;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.end = global::Spectrum.Droid.Resource.Id.end;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.fill = global::Spectrum.Droid.Resource.Id.fill;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.fill_horizontal = global::Spectrum.Droid.Resource.Id.fill_horizontal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.fill_vertical = global::Spectrum.Droid.Resource.Id.fill_vertical;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.forever = global::Spectrum.Droid.Resource.Id.forever;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.icon = global::Spectrum.Droid.Resource.Id.icon;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.icon_group = global::Spectrum.Droid.Resource.Id.icon_group;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.info = global::Spectrum.Droid.Resource.Id.info;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.italic = global::Spectrum.Droid.Resource.Id.italic;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.item_touch_helper_previous_elevation = global::Spectrum.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.left = global::Spectrum.Droid.Resource.Id.left;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.line1 = global::Spectrum.Droid.Resource.Id.line1;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.line3 = global::Spectrum.Droid.Resource.Id.line3;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.none = global::Spectrum.Droid.Resource.Id.none;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.normal = global::Spectrum.Droid.Resource.Id.normal;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_background = global::Spectrum.Droid.Resource.Id.notification_background;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_main_column = global::Spectrum.Droid.Resource.Id.notification_main_column;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.notification_main_column_container = global::Spectrum.Droid.Resource.Id.notification_main_column_container;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right = global::Spectrum.Droid.Resource.Id.right;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right_icon = global::Spectrum.Droid.Resource.Id.right_icon;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.right_side = global::Spectrum.Droid.Resource.Id.right_side;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.start = global::Spectrum.Droid.Resource.Id.start;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.tag_transition_group = global::Spectrum.Droid.Resource.Id.tag_transition_group;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.tag_unhandled_key_event_manager = global::Spectrum.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.tag_unhandled_key_listeners = global::Spectrum.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.text = global::Spectrum.Droid.Resource.Id.text;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.text2 = global::Spectrum.Droid.Resource.Id.text2;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.time = global::Spectrum.Droid.Resource.Id.time;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.title = global::Spectrum.Droid.Resource.Id.title;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Id.top = global::Spectrum.Droid.Resource.Id.top;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Integer.status_bar_notification_info_maxnum = global::Spectrum.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_action = global::Spectrum.Droid.Resource.Layout.notification_action;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_action_tombstone = global::Spectrum.Droid.Resource.Layout.notification_action_tombstone;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_custom_big = global::Spectrum.Droid.Resource.Layout.notification_template_custom_big;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_icon_group = global::Spectrum.Droid.Resource.Layout.notification_template_icon_group;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_part_chronometer = global::Spectrum.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Layout.notification_template_part_time = global::Spectrum.Droid.Resource.Layout.notification_template_part_time;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.String.status_bar_notification_info_overflow = global::Spectrum.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification = global::Spectrum.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Info = global::Spectrum.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::Spectrum.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Time = global::Spectrum.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.TextAppearance_Compat_Notification_Title = global::Spectrum.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Compat_NotificationActionContainer = global::Spectrum.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Compat_NotificationActionText = global::Spectrum.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Style.Widget_Support_CoordinatorLayout = global::Spectrum.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.ColorStateListItem = global::Spectrum.Droid.Resource.Styleable.ColorStateListItem;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.ColorStateListItem_alpha = global::Spectrum.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.ColorStateListItem_android_alpha = global::Spectrum.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.ColorStateListItem_android_color = global::Spectrum.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_keylines = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::Spectrum.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily = global::Spectrum.Droid.Resource.Styleable.FontFamily;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderAuthority = global::Spectrum.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderCerts = global::Spectrum.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::Spectrum.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::Spectrum.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderPackage = global::Spectrum.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamily_fontProviderQuery = global::Spectrum.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_font = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontStyle = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_fontWeight = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_font = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontStyle = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_fontWeight = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.FontFamilyFont_ttcIndex = global::Spectrum.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor = global::Spectrum.Droid.Resource.Styleable.GradientColor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_centerColor = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_centerX = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_centerY = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_endColor = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_endX = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_endY = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_gradientRadius = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_startColor = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_startX = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_startY = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_tileMode = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColor_android_type = global::Spectrum.Droid.Resource.Styleable.GradientColor_android_type;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColorItem = global::Spectrum.Droid.Resource.Styleable.GradientColorItem;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColorItem_android_color = global::Spectrum.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.GradientColorItem_android_offset = global::Spectrum.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding = global::Spectrum.Droid.Resource.Styleable.MvxBinding;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxBind = global::Spectrum.Droid.Resource.Styleable.MvxBinding_MvxBind;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxBinding_MvxLang = global::Spectrum.Droid.Resource.Styleable.MvxBinding_MvxLang;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxControl = global::Spectrum.Droid.Resource.Styleable.MvxControl;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxControl_MvxTemplate = global::Spectrum.Droid.Resource.Styleable.MvxControl_MvxTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxExpandableListView = global::Spectrum.Droid.Resource.Styleable.MvxExpandableListView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxExpandableListView_MvxGroupItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView = global::Spectrum.Droid.Resource.Styleable.MvxListView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView_MvxDropDownItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxListView_MvxDropDownItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxListView_MvxItemTemplate = global::Spectrum.Droid.Resource.Styleable.MvxListView_MvxItemTemplate;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxRecyclerView = global::Spectrum.Droid.Resource.Styleable.MvxRecyclerView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.MvxRecyclerView_MvxTemplateSelector = global::Spectrum.Droid.Resource.Styleable.MvxRecyclerView_MvxTemplateSelector;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView = global::Spectrum.Droid.Resource.Styleable.RecyclerView;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_android_descendantFocusability = global::Spectrum.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_android_orientation = global::Spectrum.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollEnabled = global::Spectrum.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::Spectrum.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::Spectrum.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::Spectrum.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::Spectrum.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_layoutManager = global::Spectrum.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_reverseLayout = global::Spectrum.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_spanCount = global::Spectrum.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::MvvmCross.Droid.Support.V7.RecyclerView.Resource.Styleable.RecyclerView_stackFromEnd = global::Spectrum.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
 		}
 		
 		public partial class Animation
@@ -153,23 +370,26 @@ namespace Spectrum.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010216
-			public const int MvxBind = 2130772502;
-			
-			// aapt resource value: 0x7f01021a
-			public const int MvxDropDownItemTemplate = 2130772506;
+			// aapt resource value: 0x7f010217
+			public const int MvxBind = 2130772503;
 			
 			// aapt resource value: 0x7f01021b
-			public const int MvxGroupItemTemplate = 2130772507;
+			public const int MvxDropDownItemTemplate = 2130772507;
 			
-			// aapt resource value: 0x7f010219
-			public const int MvxItemTemplate = 2130772505;
+			// aapt resource value: 0x7f01021c
+			public const int MvxGroupItemTemplate = 2130772508;
 			
-			// aapt resource value: 0x7f010217
-			public const int MvxLang = 2130772503;
+			// aapt resource value: 0x7f01021a
+			public const int MvxItemTemplate = 2130772506;
 			
 			// aapt resource value: 0x7f010218
-			public const int MvxTemplate = 2130772504;
+			public const int MvxLang = 2130772504;
+			
+			// aapt resource value: 0x7f010219
+			public const int MvxTemplate = 2130772505;
+			
+			// aapt resource value: 0x7f010216
+			public const int MvxTemplateSelector = 2130772502;
 			
 			// aapt resource value: 0x7f010062
 			public const int actionBarDivider = 2130772066;
@@ -1221,47 +1441,47 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f010108
 			public const int logoDescription = 2130772232;
 			
-			// aapt resource value: 0x7f01021f
-			public const int lottie_autoPlay = 2130772511;
-			
-			// aapt resource value: 0x7f010226
-			public const int lottie_colorFilter = 2130772518;
-			
-			// aapt resource value: 0x7f010225
-			public const int lottie_enableMergePathsForKitKatAndAbove = 2130772517;
-			
-			// aapt resource value: 0x7f01021c
-			public const int lottie_fileName = 2130772508;
-			
-			// aapt resource value: 0x7f010223
-			public const int lottie_imageAssetsFolder = 2130772515;
-			
 			// aapt resource value: 0x7f010220
-			public const int lottie_loop = 2130772512;
-			
-			// aapt resource value: 0x7f010224
-			public const int lottie_progress = 2130772516;
-			
-			// aapt resource value: 0x7f01021d
-			public const int lottie_rawRes = 2130772509;
-			
-			// aapt resource value: 0x7f010229
-			public const int lottie_renderMode = 2130772521;
-			
-			// aapt resource value: 0x7f010222
-			public const int lottie_repeatCount = 2130772514;
-			
-			// aapt resource value: 0x7f010221
-			public const int lottie_repeatMode = 2130772513;
+			public const int lottie_autoPlay = 2130772512;
 			
 			// aapt resource value: 0x7f010227
-			public const int lottie_scale = 2130772519;
+			public const int lottie_colorFilter = 2130772519;
 			
-			// aapt resource value: 0x7f010228
-			public const int lottie_speed = 2130772520;
+			// aapt resource value: 0x7f010226
+			public const int lottie_enableMergePathsForKitKatAndAbove = 2130772518;
+			
+			// aapt resource value: 0x7f01021d
+			public const int lottie_fileName = 2130772509;
+			
+			// aapt resource value: 0x7f010224
+			public const int lottie_imageAssetsFolder = 2130772516;
+			
+			// aapt resource value: 0x7f010221
+			public const int lottie_loop = 2130772513;
+			
+			// aapt resource value: 0x7f010225
+			public const int lottie_progress = 2130772517;
 			
 			// aapt resource value: 0x7f01021e
-			public const int lottie_url = 2130772510;
+			public const int lottie_rawRes = 2130772510;
+			
+			// aapt resource value: 0x7f01022a
+			public const int lottie_renderMode = 2130772522;
+			
+			// aapt resource value: 0x7f010223
+			public const int lottie_repeatCount = 2130772515;
+			
+			// aapt resource value: 0x7f010222
+			public const int lottie_repeatMode = 2130772514;
+			
+			// aapt resource value: 0x7f010228
+			public const int lottie_scale = 2130772520;
+			
+			// aapt resource value: 0x7f010229
+			public const int lottie_speed = 2130772521;
+			
+			// aapt resource value: 0x7f01021f
+			public const int lottie_url = 2130772511;
 			
 			// aapt resource value: 0x7f01011a
 			public const int materialButtonStyle = 2130772250;
@@ -3320,17 +3540,17 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f09007e
 			public const int action_bar_title = 2131296382;
 			
-			// aapt resource value: 0x7f0900c4
-			public const int action_container = 2131296452;
+			// aapt resource value: 0x7f0900c5
+			public const int action_container = 2131296453;
 			
 			// aapt resource value: 0x7f0900a3
 			public const int action_context_bar = 2131296419;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int action_divider = 2131296463;
+			// aapt resource value: 0x7f0900d0
+			public const int action_divider = 2131296464;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int action_image = 2131296453;
+			// aapt resource value: 0x7f0900c6
+			public const int action_image = 2131296454;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -3347,11 +3567,11 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090080
 			public const int action_mode_close_button = 2131296384;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int action_text = 2131296454;
+			// aapt resource value: 0x7f0900c7
+			public const int action_text = 2131296455;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int actions = 2131296464;
+			// aapt resource value: 0x7f0900d1
+			public const int actions = 2131296465;
 			
 			// aapt resource value: 0x7f090081
 			public const int activity_chooser_view_content = 2131296385;
@@ -3368,8 +3588,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090042
 			public const int always = 2131296322;
 			
-			// aapt resource value: 0x7f0900d2
-			public const int animation_view = 2131296466;
+			// aapt resource value: 0x7f0900d3
+			public const int animation_view = 2131296467;
 			
 			// aapt resource value: 0x7f090075
 			public const int async = 2131296373;
@@ -3410,8 +3630,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f09009b
 			public const int checkbox = 2131296411;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int chronometer = 2131296462;
+			// aapt resource value: 0x7f0900cf
+			public const int chronometer = 2131296463;
 			
 			// aapt resource value: 0x7f090064
 			public const int clip_horizontal = 2131296356;
@@ -3536,8 +3756,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090086
 			public const int icon = 2131296390;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int icon_group = 2131296465;
+			// aapt resource value: 0x7f0900d2
+			public const int icon_group = 2131296466;
 			
 			// aapt resource value: 0x7f090044
 			public const int ifRoom = 2131296324;
@@ -3545,8 +3765,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090083
 			public const int image = 2131296387;
 			
-			// aapt resource value: 0x7f0900ca
-			public const int info = 2131296458;
+			// aapt resource value: 0x7f0900cb
+			public const int info = 2131296459;
 			
 			// aapt resource value: 0x7f090069
 			public const int invisible = 2131296361;
@@ -3584,8 +3804,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090026
 			public const int lottie_layer_name = 2131296294;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int masked = 2131296468;
+			// aapt resource value: 0x7f0900d5
+			public const int masked = 2131296469;
 			
 			// aapt resource value: 0x7f0900b1
 			public const int message = 2131296433;
@@ -3605,6 +3825,9 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090032
 			public const int multiply = 2131296306;
 			
+			// aapt resource value: 0x7f0900c4
+			public const int my_recycler_view = 2131296452;
+			
 			// aapt resource value: 0x7f0900be
 			public const int navigation_header_container = 2131296446;
 			
@@ -3617,14 +3840,14 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090028
 			public const int normal = 2131296296;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int notification_background = 2131296460;
+			// aapt resource value: 0x7f0900cd
+			public const int notification_background = 2131296461;
+			
+			// aapt resource value: 0x7f0900c9
+			public const int notification_main_column = 2131296457;
 			
 			// aapt resource value: 0x7f0900c8
-			public const int notification_main_column = 2131296456;
-			
-			// aapt resource value: 0x7f0900c7
-			public const int notification_main_column_container = 2131296455;
+			public const int notification_main_column_container = 2131296456;
 			
 			// aapt resource value: 0x7f090063
 			public const int outline = 2131296355;
@@ -3677,11 +3900,11 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090058
 			public const int right = 2131296344;
 			
-			// aapt resource value: 0x7f0900cb
-			public const int right_icon = 2131296459;
+			// aapt resource value: 0x7f0900cc
+			public const int right_icon = 2131296460;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int right_side = 2131296457;
+			// aapt resource value: 0x7f0900ca
+			public const int right_side = 2131296458;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -3851,8 +4074,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f09001a
 			public const int textinput_helper_text = 2131296282;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int time = 2131296461;
+			// aapt resource value: 0x7f0900ce
+			public const int time = 2131296462;
 			
 			// aapt resource value: 0x7f090023
 			public const int title = 2131296291;
@@ -3902,8 +4125,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f09001b
 			public const int view_offset_helper = 2131296283;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int visible = 2131296467;
+			// aapt resource value: 0x7f0900d4
+			public const int visible = 2131296468;
 			
 			// aapt resource value: 0x7f090046
 			public const int withText = 2131296326;
@@ -4140,46 +4363,49 @@ namespace Spectrum.Droid
 			public const int design_text_input_password_icon = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int MainView = 2130968619;
+			public const int item_user = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int mtrl_layout_snackbar = 2130968620;
+			public const int MainView = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int mtrl_layout_snackbar_include = 2130968621;
+			public const int mtrl_layout_snackbar = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_action = 2130968622;
+			public const int mtrl_layout_snackbar_include = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_action_tombstone = 2130968623;
+			public const int notification_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_template_custom_big = 2130968624;
+			public const int notification_action_tombstone = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_template_icon_group = 2130968625;
+			public const int notification_template_custom_big = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_part_chronometer = 2130968626;
+			public const int notification_template_icon_group = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_part_time = 2130968627;
+			public const int notification_template_part_chronometer = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int select_dialog_item_material = 2130968628;
+			public const int notification_template_part_time = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int select_dialog_multichoice_material = 2130968629;
+			public const int select_dialog_item_material = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int select_dialog_singlechoice_material = 2130968630;
+			public const int select_dialog_multichoice_material = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int SplashScreen = 2130968631;
+			public const int select_dialog_singlechoice_material = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int support_simple_spinner_dropdown_item = 2130968632;
+			public const int SplashScreen = 2130968632;
+			
+			// aapt resource value: 0x7f040039
+			public const int support_simple_spinner_dropdown_item = 2130968633;
 			
 			static Layout()
 			{
@@ -8143,7 +8369,6 @@ namespace Spectrum.Droid
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
 			public static int[] LottieAnimationView = new int[] {
-					2130772508,
 					2130772509,
 					2130772510,
 					2130772511,
@@ -8156,7 +8381,8 @@ namespace Spectrum.Droid
 					2130772518,
 					2130772519,
 					2130772520,
-					2130772521};
+					2130772521,
+					2130772522};
 			
 			// aapt resource value: 3
 			public const int LottieAnimationView_lottie_autoPlay = 3;
@@ -8565,8 +8791,8 @@ namespace Spectrum.Droid
 			public const int MenuView_subMenuArrow = 8;
 			
 			public static int[] MvxBinding = new int[] {
-					2130772502,
-					2130772503};
+					2130772503,
+					2130772504};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -8575,26 +8801,32 @@ namespace Spectrum.Droid
 			public const int MvxBinding_MvxLang = 1;
 			
 			public static int[] MvxControl = new int[] {
-					2130772504};
+					2130772505};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[] {
-					2130772507};
+					2130772508};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			public static int[] MvxListView = new int[] {
-					2130772505,
-					2130772506};
+					2130772506,
+					2130772507};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;
 			
 			// aapt resource value: 0
 			public const int MvxListView_MvxItemTemplate = 0;
+			
+			public static int[] MvxRecyclerView = new int[] {
+					2130772502};
+			
+			// aapt resource value: 0
+			public const int MvxRecyclerView_MvxTemplateSelector = 0;
 			
 			public static int[] NavigationView = new int[] {
 					16842964,

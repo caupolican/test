@@ -6,10 +6,6 @@ namespace Spectrum.Droid
 {
     public class Setup : MvxAndroidSetup
     {
-        public Setup(Context applicationContext)
-        {
-        }
-
         protected override IMvxApplication CreateApp()
         {
             return new Spectrum.Core.App();

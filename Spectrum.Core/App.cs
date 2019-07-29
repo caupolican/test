@@ -12,7 +12,7 @@ namespace Spectrum.Core
         {
             Mvx.IoCProvider.RegisterType<IRepository, Repository>();
 
-            Akavache.Registrations.Start("Spectrum");
+            //Akavache.Registrations.Start("Spectrum");
 
             RegisterAppStart<MainViewModel>();
         }
