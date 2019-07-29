@@ -26,6 +26,7 @@ namespace Spectrum.ViewModels
         public override void Prepare()
         {
             Title = "Spectrum Users";
+            Users = new ObservableCollection<UserViewModel>();
 
             base.Prepare();
         }

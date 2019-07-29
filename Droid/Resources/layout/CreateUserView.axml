@@ -17,8 +17,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                app:MvxBind="Error FirstNameError">
+                android:layout_marginTop="8dp">
                 <EditText
                     android:id="@+id/password_input"
                     android:layout_width="match_parent"
@@ -57,7 +56,7 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/email"
                     android:inputType="textEmailAddress"
-                    app:MvxBind="Text Email"/>
+                    app:MvxBind="Text Email; Error EmailError"/>
             </android.support.design.widget.TextInputLayout>
             
             <android.support.design.widget.TextInputLayout
@@ -73,7 +72,8 @@
                     android:layout_height="wrap_content"
                     android:hint="@string/password"
                     android:inputType="textPassword"
-                    app:MvxBind="Text Password"/>
+                    app:MvxBind="Text Password; Error PasswordError"/>
+            
             </android.support.design.widget.TextInputLayout>
         
     </LinearLayout>

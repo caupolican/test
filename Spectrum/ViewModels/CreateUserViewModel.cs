@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using MvvmCross.Core.Navigation;
 using MvvmCross.Core.ViewModels;
+using Spectrum.Services;
 
 namespace Spectrum.ViewModels
 {
@@ -23,11 +24,7 @@ namespace Spectrum.ViewModels
         }
 
         public string FirstName { get; set; }
-        public string FirstNameError { get; set; }
-
         public string LastName { get; set; }
-        public string LastNameError { get; set; }
-
         public string Email { get; set; }
         public string EmailError { get; set; }
 
@@ -40,19 +37,36 @@ namespace Spectrum.ViewModels
 
         public override void Prepare(NavigationParameters parameter)
         {
-            FirstNameError = "Test Error";
+            //
         }
 
         public async Task CloseAsync()
         {
-            await _navigationService.Close(this, new UserViewModel {
-                FirstName = FirstName,
-                LastName = LastName,
-                Email = Email,
-                Password = Password
-            });
-        }
+            // Validate
+            if (string.IsNullOrWhiteSpace(Email))
+            {
+                EmailError = "User Name is required.";
+            }
+            else
+            {
+                var (Result, Message) = PasswordValidationService.Validate(Password ?? string.Empty);
+                if (Result)
+                {
+                    await _navigationService.Close(this, new UserViewModel
+                    {
+                        FirstName = FirstName ?? string.Empty,
+                        LastName = LastName ?? string.Empty,
+                        Email = Email ?? string.Empty,
+                        Password = Password
+                    });
+                }
+                else
+                {
 
+                    PasswordError = Message;
+                }
+            }
+        }
 
     }
 }
