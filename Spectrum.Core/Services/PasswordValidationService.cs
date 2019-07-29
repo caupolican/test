@@ -3,7 +3,13 @@ using System.Text.RegularExpressions;
 
 namespace Spectrum.Services
 {
-    public static class PasswordValidationService
+
+    public interface IPasswordValidationService {
+
+        (bool Result, string Message) Validate(string password);
+    }
+
+    public class PasswordValidationService: IPasswordValidationService
     {
         /// <summary>
         //  Validation Rules
@@ -12,7 +18,7 @@ namespace Spectrum.Services
         //  3. String must not contain any sequence of characters immediately followed by the same sequence
         /// </summary>
         /// <returns></returns>
-        public static (bool Result, string Message) Validate(string password)
+        public (bool Result, string Message) Validate(string password)
         {
 
             if (password.Length < 5 || password.Length > 12)

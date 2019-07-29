@@ -10,10 +10,14 @@ namespace Spectrum.ViewModels
     public class CreateUserViewModel: MvxViewModel<NavigationParameters, UserViewModel>
     {
         private readonly IMvxNavigationService _navigationService;
+        private readonly IPasswordValidationService _passwordValidationService;
 
-        public CreateUserViewModel(IMvxNavigationService navigationService)
+        public CreateUserViewModel(
+            IMvxNavigationService navigationService,
+            IPasswordValidationService passwordValidationService)
         {
             _navigationService = navigationService;
+            _passwordValidationService = passwordValidationService;
             CreateUserCommand = new MvxAsyncCommand(CloseAsync);
         }
 
@@ -50,7 +54,7 @@ namespace Spectrum.ViewModels
             }
             else
             {
-                var (Result, Message) = PasswordValidationService.Validate(Password ?? string.Empty);
+                var (Result, Message) = _passwordValidationService.Validate(Password ?? string.Empty);
                 if (Result)
                 {
                     await _navigationService.Close(this, new UserViewModel

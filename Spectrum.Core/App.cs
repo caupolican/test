@@ -11,6 +11,7 @@ namespace Spectrum.Core
         public override void Initialize()
         {
             Mvx.IoCProvider.RegisterType<IRepository, Repository>();
+            Mvx.IoCProvider.RegisterType<IPasswordValidationService, PasswordValidationService>();
 
             //Akavache.Registrations.Start("Spectrum");
 
