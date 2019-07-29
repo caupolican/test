@@ -14,4 +14,5 @@ namespace Spectrum
             RegisterNavigationServiceAppStart<ViewModels.MainViewModel>();
         }
     }
+
 }
