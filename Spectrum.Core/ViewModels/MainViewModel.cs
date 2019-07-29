@@ -41,8 +41,12 @@ namespace Spectrum.ViewModels
 
             Users = new ObservableCollection<UserViewModel>(users);
 
+            IsEmpty = !Users.Any();
+
             base.Prepare();
         }
+
+        public bool IsEmpty { get; set; }
 
         public IMvxAsyncCommand CreateUserCommand { get; set; }
         
@@ -58,6 +62,8 @@ namespace Spectrum.ViewModels
             await _repository.AddUserAsync(user);
 
             Users.Add(user);
+
+            IsEmpty = !Users.Any();
         }
     }
 }

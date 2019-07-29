@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Reactive.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Akavache;
+using Newtonsoft.Json;
 using Spectrum.ViewModels;
 
 namespace Spectrum.Services
@@ -54,43 +57,48 @@ namespace Spectrum.Services
     //    }
     //}
 
-
+    /// <summary>
+    ///  Interimg Store solution, Having issues with Akavache and SQLite after updating packages.
+    /// </summary>
     public class Repository : IRepository
     {
-        public readonly IList<UserViewModel> _store = new List<UserViewModel> {
-            new UserViewModel {
-                FirstName = "John",
-                LastName = "Doe",
-                Name = "Doe, Jhon",
-                Email = "pepe@gmail.com"
+        public readonly Lazy<IList<UserViewModel>> _store;
 
-            },
-                        new UserViewModel {
-                FirstName = "John",
-                LastName = "Doe",
-                Name = "Doe, Jhon",
-                Email = "pepe@gmail.com"
+        public Repository()
+        {
+            _store = new Lazy<IList<UserViewModel>>(() =>
+            {
 
-            },
-                                    new UserViewModel {
-                FirstName = "John",
-                LastName = "Doe",
-                Name = "Doe, Jhon",
-                Email = "pepe@gmail.com"
+                if (!File.Exists(ContentPath))
+                {
+                    File.WriteAllText(ContentPath, JsonConvert.SerializeObject(new List<UserViewModel>()));
+                }
 
-            },
-        };
+                var json = File.ReadAllText(ContentPath);
+                return JsonConvert.DeserializeObject<List<UserViewModel>>(json);
+
+            }, LazyThreadSafetyMode.PublicationOnly);
+        }
+
+        public string ContentPath => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "store.json");
 
         public Task AddUserAsync(UserViewModel user)
         {
-            _store.Add(user);
+            var task = Task
+                .Factory
+                .StartNew(() =>
+                {
+                    _store.Value.Add(user);
+                    var json = JsonConvert.SerializeObject(_store.Value);
+                    File.WriteAllText(ContentPath, json);
+                });
 
-            return Task.CompletedTask;
+            return task;
         }
 
         public Task<IList<UserViewModel>> GetAllAsync()
         {
-            return Task.FromResult(_store);
+            return Task.FromResult(_store.Value);
         }
     }
 }

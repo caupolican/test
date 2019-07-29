@@ -6,6 +6,16 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lottie_fileName="empty.json"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        android:visibility="gone"
+        app:MvxBind="Visibility Visibility(IsEmpty)"/>
+    
     <mvvmcross.droid.support.v7.recyclerview.MvxRecyclerView
         android:id="@+id/my_recycler_view"
         android:scrollbars="vertical"

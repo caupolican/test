@@ -3540,17 +3540,17 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f09007e
 			public const int action_bar_title = 2131296382;
 			
-			// aapt resource value: 0x7f0900c7
-			public const int action_container = 2131296455;
+			// aapt resource value: 0x7f0900c8
+			public const int action_container = 2131296456;
 			
 			// aapt resource value: 0x7f0900a3
 			public const int action_context_bar = 2131296419;
 			
-			// aapt resource value: 0x7f0900d2
-			public const int action_divider = 2131296466;
+			// aapt resource value: 0x7f0900d3
+			public const int action_divider = 2131296467;
 			
-			// aapt resource value: 0x7f0900c8
-			public const int action_image = 2131296456;
+			// aapt resource value: 0x7f0900c9
+			public const int action_image = 2131296457;
 			
 			// aapt resource value: 0x7f090003
 			public const int action_menu_divider = 2131296259;
@@ -3567,11 +3567,11 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090080
 			public const int action_mode_close_button = 2131296384;
 			
-			// aapt resource value: 0x7f0900c9
-			public const int action_text = 2131296457;
+			// aapt resource value: 0x7f0900ca
+			public const int action_text = 2131296458;
 			
-			// aapt resource value: 0x7f0900d3
-			public const int actions = 2131296467;
+			// aapt resource value: 0x7f0900d4
+			public const int actions = 2131296468;
 			
 			// aapt resource value: 0x7f090081
 			public const int activity_chooser_view_content = 2131296385;
@@ -3588,8 +3588,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090042
 			public const int always = 2131296322;
 			
-			// aapt resource value: 0x7f0900d5
-			public const int animation_view = 2131296469;
+			// aapt resource value: 0x7f0900c5
+			public const int animation_view = 2131296453;
 			
 			// aapt resource value: 0x7f090075
 			public const int async = 2131296373;
@@ -3630,8 +3630,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f09009b
 			public const int checkbox = 2131296411;
 			
-			// aapt resource value: 0x7f0900d1
-			public const int chronometer = 2131296465;
+			// aapt resource value: 0x7f0900d2
+			public const int chronometer = 2131296466;
 			
 			// aapt resource value: 0x7f090064
 			public const int clip_horizontal = 2131296356;
@@ -3714,8 +3714,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f09009a
 			public const int expanded_menu = 2131296410;
 			
-			// aapt resource value: 0x7f0900c6
-			public const int fab_button = 2131296454;
+			// aapt resource value: 0x7f0900c7
+			public const int fab_button = 2131296455;
 			
 			// aapt resource value: 0x7f090061
 			public const int fill = 2131296353;
@@ -3759,8 +3759,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090086
 			public const int icon = 2131296390;
 			
-			// aapt resource value: 0x7f0900d4
-			public const int icon_group = 2131296468;
+			// aapt resource value: 0x7f0900d5
+			public const int icon_group = 2131296469;
 			
 			// aapt resource value: 0x7f090044
 			public const int ifRoom = 2131296324;
@@ -3768,8 +3768,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090083
 			public const int image = 2131296387;
 			
-			// aapt resource value: 0x7f0900cd
-			public const int info = 2131296461;
+			// aapt resource value: 0x7f0900ce
+			public const int info = 2131296462;
 			
 			// aapt resource value: 0x7f090069
 			public const int invisible = 2131296361;
@@ -3828,8 +3828,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090032
 			public const int multiply = 2131296306;
 			
-			// aapt resource value: 0x7f0900c5
-			public const int my_recycler_view = 2131296453;
+			// aapt resource value: 0x7f0900c6
+			public const int my_recycler_view = 2131296454;
 			
 			// aapt resource value: 0x7f0900be
 			public const int navigation_header_container = 2131296446;
@@ -3843,14 +3843,14 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090028
 			public const int normal = 2131296296;
 			
-			// aapt resource value: 0x7f0900cf
-			public const int notification_background = 2131296463;
+			// aapt resource value: 0x7f0900d0
+			public const int notification_background = 2131296464;
+			
+			// aapt resource value: 0x7f0900cc
+			public const int notification_main_column = 2131296460;
 			
 			// aapt resource value: 0x7f0900cb
-			public const int notification_main_column = 2131296459;
-			
-			// aapt resource value: 0x7f0900ca
-			public const int notification_main_column_container = 2131296458;
+			public const int notification_main_column_container = 2131296459;
 			
 			// aapt resource value: 0x7f090063
 			public const int outline = 2131296355;
@@ -3903,11 +3903,11 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f090058
 			public const int right = 2131296344;
 			
-			// aapt resource value: 0x7f0900ce
-			public const int right_icon = 2131296462;
+			// aapt resource value: 0x7f0900cf
+			public const int right_icon = 2131296463;
 			
-			// aapt resource value: 0x7f0900cc
-			public const int right_side = 2131296460;
+			// aapt resource value: 0x7f0900cd
+			public const int right_side = 2131296461;
 			
 			// aapt resource value: 0x7f09000c
 			public const int save_image_matrix = 2131296268;
@@ -4080,8 +4080,8 @@ namespace Spectrum.Droid
 			// aapt resource value: 0x7f09001a
 			public const int textinput_helper_text = 2131296282;
 			
-			// aapt resource value: 0x7f0900d0
-			public const int time = 2131296464;
+			// aapt resource value: 0x7f0900d1
+			public const int time = 2131296465;
 			
 			// aapt resource value: 0x7f090023
 			public const int title = 2131296291;

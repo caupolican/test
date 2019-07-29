@@ -229,10 +229,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\loading.json" />
+    <AndroidAsset Include="Assets\empty.json" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Spectrum.Core\Spectrum.Core.csproj">
-      <Project>{9A486013-C9BE-43B2-883F-485896416631}</Project>
+      <Project>{8217AACA-974F-405B-9B19-ED264778AF58}</Project>
       <Name>Spectrum.Core</Name>
     </ProjectReference>
   </ItemGroup>
